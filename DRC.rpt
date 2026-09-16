@@ -1,0 +1,242 @@
+** Drc report for STM32 TEST.kicad_pcb **
+** Created on 2026-09-16T23:57:40+0530 **
+
+** Found 29 DRC violations **
+[shorting_items]: Items shorting two nets (nets /PB15 and /PB7)
+    Local override; error
+    @(143.8328 mm, 115.7050 mm): Track [/PB15] on B.Cu, length 17.1239 mm
+    @(154.2500 mm, 115.0000 mm): PTH pad 2 [/PB7] of J4
+[shorting_items]: Items shorting two nets (nets /PB12 and +3.3V)
+    Local override; error
+    @(162.1339 mm, 113.2500 mm): Track [/PB12] on B.Cu, length 19.7193 mm
+    @(154.2500 mm, 113.0000 mm): PTH pad 1 [+3.3V] of J4
+[clearance]: Clearance violation (netclass 'Power' clearance 0.2000 mm; actual 0.0300 mm)
+    Rule: netclass 'Power'; error
+    @(145.4890 mm, 118.2450 mm): Track [/PA12] on B.Cu, length 33.2660 mm
+    @(154.2500 mm, 119.0000 mm): PTH pad 4 [GND] of J4
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(154.1550 mm, 81.7243 mm): PTH pad 3 [GND] of J5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(165.4750 mm, 119.2500 mm): Pad 1 [GND] of D3 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(154.1550 mm, 81.7243 mm): PTH pad 3 [GND] of J5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(138.8750 mm, 126.0143 mm): PTH pad 16 [GND] of J7
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(174.7500 mm, 125.7500 mm): Pad B1 [GND] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(154.1150 mm, 123.4743 mm): PTH pad 3 [GND] of J7
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(174.7500 mm, 125.7500 mm): Pad A12 [GND] of J1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(144.5880 mm, 98.5145 mm): Pad 2 [GND] of C8 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(168.8100 mm, 98.4950 mm): Pad 6 [GND] of J6 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(148.5478 mm, 100.4590 mm): Pad 2 [GND] of C14 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(166.5000 mm, 97.7125 mm): Pad 1 [GND] of C20 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(148.0175 mm, 106.0451 mm): Pad 2 [GND] of C4 on B.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer B.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(154.2500 mm, 119.0000 mm): PTH pad 4 [GND] of J4
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; 1 spokes connected to isolated island)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(160.5000 mm, 111.9600 mm): PTH pad 3 [GND] of J3
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(142.4137 mm, 94.6784 mm): Pad 2 [GND] of C10 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(167.3750 mm, 114.7500 mm): Pad 2 [GND] of C18 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(171.4125 mm, 112.5000 mm): Pad 2 [GND] of C16 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(140.9995 mm, 93.2642 mm): Pad 2 [GND] of C11 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(150.8659 mm, 95.5730 mm): Pad 2 [GND] of Y1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(138.8750 mm, 126.0143 mm): PTH pad 16 [GND] of J7
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(154.1150 mm, 123.4743 mm): PTH pad 3 [GND] of J7
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(169.5500 mm, 119.5000 mm): Pad 2 [GND] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(169.5500 mm, 120.1500 mm): Pad 3 [GND] of U1 on F.Cu
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(167.4125 mm, 112.5000 mm): Pad 2 [GND] of C19 on F.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(143.8328 mm, 115.7050 mm): Track [/PB15] on B.Cu, length 17.1239 mm
+    @(154.2500 mm, 115.0000 mm): PTH pad 2 [/PB7] of J4
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(162.1339 mm, 113.2500 mm): Track [/PB12] on B.Cu, length 19.7193 mm
+    @(154.2500 mm, 113.0000 mm): PTH pad 1 [+3.3V] of J4
+
+** Found 29 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(169.5500 mm, 119.5000 mm): Pad 2 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(175.8200 mm, 126.6650 mm): PTH pad S1 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(144.5880 mm, 98.5145 mm): Pad 2 [GND] of C8 on B.Cu
+    @(142.8203 mm, 97.9134 mm): Pad 18 [GND] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.3104 mm, 98.9741 mm): Pad 12 [GND] of U3 on F.Cu
+    @(148.5478 mm, 100.4590 mm): Pad 2 [GND] of C14 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(138.2241 mm, 102.5096 mm): Pad 31 [GND] of U3 on F.Cu
+    @(140.1686 mm, 102.9339 mm): Pad 2 [GND] of C9 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.4213 mm, 108.4139 mm): Pad 2 [GND] of C7 on B.Cu
+    @(142.8203 mm, 110.5353 mm): Pad 47 [GND] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(166.5000 mm, 97.7125 mm): Pad 1 [GND] of C20 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(147.3104 mm, 98.9741 mm): Pad 12 [GND] of U3 on F.Cu
+    @(144.5880 mm, 98.5145 mm): Pad 2 [GND] of C8 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(150.8459 mm, 105.9391 mm): Pad 63 [GND] of U3 on F.Cu
+    @(148.0175 mm, 106.0451 mm): Pad 2 [GND] of C4 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(143.4213 mm, 108.4139 mm): Pad 2 [GND] of C7 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.8203 mm, 97.9134 mm): Pad 18 [GND] of U3 on F.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.7851 mm, 99.3206 mm): Pad 4 [GND] of Y1 on F.Cu
+    @(148.5478 mm, 100.4590 mm): Pad 2 [GND] of C14 on B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.4125 mm, 112.5000 mm): Pad 2 [GND] of C19 on F.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(171.4125 mm, 112.5000 mm): Pad 2 [GND] of C16 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(151.7851 mm, 99.3206 mm): Pad 4 [GND] of Y1 on F.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.0000 mm, 121.3875 mm): Pad 2 [GND] of U2 on F.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+    @(126.2500 mm, 76.0000 mm): Zone [GND] on F.Cu and B.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(158.7364 mm, 109.4864 mm): Track [GND] on B.Cu, length 1.4878 mm
+    @(157.7927 mm, 102.2132 mm): Pad 2 [GND] of C3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(143.7925 mm, 96.1280 mm): Pad 1 [+3.3V] of FB1 on F.Cu
+    @(139.8750 mm, 100.1250 mm): Track [+3.3V] on B.Cu, length 4.1577 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(167.4075 mm, 100.6950 mm): Track [+3.3V] on B.Cu, length 1.4025 mm
+    @(171.7125 mm, 103.3500 mm): Pad 2 [+3.3V] of U4 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.5500 mm, 107.0500 mm): Pad 1 [+3.3V] of SW3 on F.Cu
+    @(178.4500 mm, 107.0500 mm): Pad 1 [+3.3V] of SW3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(178.4500 mm, 107.0500 mm): Pad 1 [+3.3V] of SW3 on F.Cu
+    @(169.4500 mm, 111.9125 mm): Track [+3.3V] on F.Cu, length 3.1997 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(142.0000 mm, 111.7500 mm): Track [+3.3V] on B.Cu, length 7.0401 mm
+    @(133.2500 mm, 113.0000 mm): PTH pad 1 [+3.3V] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(180.2125 mm, 101.2500 mm): Pad 2 [Net-(J3-Pin_5)] of C12 on F.Cu
+    @(183.3000 mm, 98.8000 mm): Pad 2 [Net-(J3-Pin_5)] of SW1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(166.5000 mm, 114.0000 mm): Track [Net-(J3-Pin_5)] on B.Cu, length 2.9600 mm
+    @(149.0782 mm, 100.7418 mm): Pad 7 [Net-(J3-Pin_5)] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.3000 mm, 88.9500 mm): Pad 2 [/PC0] of SW2 on F.Cu
+    @(178.9625 mm, 87.5000 mm): Track [/PC0] on F.Cu, length 1.1875 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(182.5500 mm, 105.4500 mm): Pad 2 [/BOOT0] of SW3 on F.Cu
+    @(178.4500 mm, 105.4500 mm): Track [/BOOT0] on F.Cu, length 18.8200 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
